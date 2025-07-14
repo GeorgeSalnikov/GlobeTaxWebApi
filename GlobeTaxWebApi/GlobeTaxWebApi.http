@@ -1,0 +1,11 @@
+@GlobeTaxWebApi_HostAddress = http://localhost:5151
+
+GET {{GlobeTaxWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{GlobeTaxWebApi_HostAddress}}/getbycountrycode/
+Accept: application/json
+
+###
+
